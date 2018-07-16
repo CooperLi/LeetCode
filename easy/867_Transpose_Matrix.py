@@ -20,3 +20,11 @@ Note:
 1 <= A.length <= 1000
 1 <= A[0].length <= 1000
 """
+
+class Solution:
+    def transpose(self, A):
+        """
+        :type A: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        
