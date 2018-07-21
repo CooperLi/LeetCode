@@ -46,6 +46,11 @@ if __name__ == '__main__':
         这里有两种方法: max(dict, key=dict.get) 和 max(dict, key=lambda x: dict[x])
 
 思考:   又一道一遍过的题, 信心有了啊, 只不过明早3点要起来去海鲜市场买海鲜, 今天估计睡不了了.
+        看了大牛的提交, 觉得自己写的还是太罗嗦:
+
+        return [x for x in set(nums) if nums.count(x) > len(nums) // 2][0]
+        主要的思想差不多, 但是这个答案没有用dict, 直接用list存那个具体的值是多少, 比我的强
+        (我为什么要多此一举用上dict这种吃力不讨好的东西呢???)
 
 一遍过
 """
