@@ -1,4 +1,4 @@
-package leetcode_1431
+package leetcode_1431_拥有最多糖果的孩子
 
 import (
 	"reflect"

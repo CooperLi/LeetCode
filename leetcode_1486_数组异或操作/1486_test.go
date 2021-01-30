@@ -1,4 +1,4 @@
-package leetcode_1486
+package leetcode_1486_数组异或操作
 
 import (
 	"testing"

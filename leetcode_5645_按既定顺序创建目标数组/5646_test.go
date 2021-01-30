@@ -1,4 +1,4 @@
-package leetcode_5645
+package leetcode_5645_按既定顺序创建目标数组
 
 import (
 	"testing"
@@ -13,9 +13,13 @@ func Test_largestAltitude(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{
-			args: args{gain: []int{-4,-3,-2,-1}},
+			args: args{gain: []int{-5, 1, 5, 0, -7}},
+			want: 1,
+		},
+		{
+			args: args{gain: []int{-4, -3, -2, -1, 4, 3, 2}},
+			want: 0,
 		},
 	}
 	for _, tt := range tests {

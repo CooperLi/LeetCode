@@ -1,4 +1,4 @@
-package leetcode_1512
+package leetcode_1512_好数对的数目
 
 /*
 给你一个整数数组 nums 。
@@ -30,7 +30,7 @@ package leetcode_1512
 无脑题，两个指针，第二个比第一个快 1
 相等结果就+1，最后遍历完输出结果
 如果要求输出坐标数据，那么就创建一个二维数组，每次遇到相等的坐标就记录进去
- */
+*/
 
 func numIdenticalPairs(nums []int) int {
 	if len(nums) <= 1 {
@@ -38,7 +38,7 @@ func numIdenticalPairs(nums []int) int {
 	}
 	result := [][]int{}
 	for i := 0; i < len(nums); i++ {
-		for j := i+1; j < len(nums); j++ {
+		for j := i + 1; j < len(nums); j++ {
 			if nums[i] == nums[j] {
 				result = append(result, []int{i, j})
 			}

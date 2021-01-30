@@ -1,8 +1,4 @@
-package leetcode_5645
-
-import (
-	"math"
-)
+package leetcode_5645_按既定顺序创建目标数组
 
 /*
 有一个自行车手打算进行一场公路骑行，这条路线总共由 n + 1 个不同海拔的点组成。自行车手从海拔为 0 的点 0 开始骑行。
@@ -26,10 +22,16 @@ n == gain.length
 
 /*
 思考：
-1. 先计算出绝对海拔
-2. 找到数组中的最大值，没了
+边算(每个海拔的绝对值)边找最大值
 */
 
 func largestAltitude(gain []int) int {
-	
+	var max, tmp = 0, 0
+	for i := 0; i < len(gain); i++ {
+		tmp += gain[i]
+		if tmp > max {
+			max = tmp
+		}
+	}
+	return max
 }

@@ -1,4 +1,4 @@
-package leetcode_1470
+package leetcode_1470_重新排列数组
 
 /*
 给你一个数组 nums ，数组中有 2n 个元素，按 [x1,x2,...,xn,y1,y2,...,yn] 的格式排列。

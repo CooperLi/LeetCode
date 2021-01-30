@@ -1,4 +1,4 @@
-package leetcode_1470
+package leetcode_1470_重新排列数组
 
 import (
 	"reflect"

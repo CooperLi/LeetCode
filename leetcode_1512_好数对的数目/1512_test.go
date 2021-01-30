@@ -1,4 +1,4 @@
-package leetcode_1512
+package leetcode_1512_好数对的数目
 
 import (
 	"testing"

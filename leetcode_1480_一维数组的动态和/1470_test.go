@@ -1,4 +1,4 @@
-package leetcode_1470
+package leetcode_1470_一维数组的动态和
 
 import (
 	"reflect"

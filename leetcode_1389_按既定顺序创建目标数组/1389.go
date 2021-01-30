@@ -1,4 +1,4 @@
-package leetcode_1389
+package leetcode_1389_按既定顺序创建目标数组
 
 /*
 给你两个整数数组 nums 和 index。你需要按照以下规则创建目标数组：

@@ -1,4 +1,4 @@
-package leetcode_1672
+package leetcode_1672_最富有客户的资产总量
 
 /*
 最富有客户的资产总量:

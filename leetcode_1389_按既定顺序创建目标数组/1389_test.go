@@ -1,4 +1,4 @@
-package leetcode_1389
+package leetcode_1389_按既定顺序创建目标数组
 
 import (
 	"reflect"
